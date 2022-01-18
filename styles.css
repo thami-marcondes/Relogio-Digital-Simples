@@ -1,0 +1,39 @@
+body {
+  background: black;
+  text-align: center;
+  font-family: 'Courier New';
+  color: white;
+
+}
+
+#socorro {
+  background: linear-gradient(135deg, #8f07e9 25%, #ff0000 50%, rgba(35, 255, 6, 0.973) 100%);
+  padding: 6px;
+  margin: 0 auto;
+  width: fit-content;
+  animation: animate 1s linear infinite;
+  border-radius: 10px;
+}
+
+#socorro>div {
+  background: black;
+}
+
+#relogio {
+  font-size: 35px;
+  font-family: 'Consolas';
+  padding: 2px 50px;
+  border-radius: 10px;
+  color: #fff;
+  background: linear-gradient(135deg, #8f07e9 25%, #ff0000 50%, rgba(35, 255, 6, 0.973) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+
+}
+
+@keyframes animate {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
